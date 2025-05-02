@@ -125,3 +125,20 @@ Caso deseje limpar os dados e containers:
 ```bash
 docker compose down -v
 ```
+
+---
+
+## Usuários de Teste
+
+A aplicação já vem com alguns usuários pré-cadastrados no banco de dados após rodar as migrations e o UpdateDatabase. Você pode utilizá-los para testes.
+
+### Credenciais
+
+| Nome               | E-mail                | Senha     | Tipo       |
+|--------------------|------------------------|-----------|------------|
+| Administrador      | admin@credutpay.com    | 12345678  | User       |
+| Lojista Silva      | lojista@credutpay.com  | 12345678  | User       |
+| João Usuário       | joao@credutpay.com     | 12345678  | User       |
+| Maria Usuária      | maria@credutpay.com    | 12345678  | User       |
+
+---

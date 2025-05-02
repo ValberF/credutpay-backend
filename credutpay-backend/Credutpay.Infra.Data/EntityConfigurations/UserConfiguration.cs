@@ -36,7 +36,7 @@ namespace Credutpay.Infra.Data.EntityConfigurations
                     Id = "00000000-0000-0000-0000-000000000001",
                     Name = "Administrador",
                     Email = "admin@credutpay.com",
-                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK", // Senha123!
+                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK",
                     Type = UserType.User,
                     CreatedAt = DateTime.Parse("2025-05-01T00:00:00Z"),
                     IsDeleted = false,
@@ -47,7 +47,7 @@ namespace Credutpay.Infra.Data.EntityConfigurations
                     Id = "00000000-0000-0000-0000-000000000002",
                     Name = "Lojista Silva",
                     Email = "lojista@credutpay.com",
-                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK", // Senha123!
+                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK",
                     Type = UserType.User,
                     CreatedAt = DateTime.Parse("2025-05-01T00:00:00Z"),
                     IsDeleted = false,
@@ -58,7 +58,7 @@ namespace Credutpay.Infra.Data.EntityConfigurations
                     Id = "00000000-0000-0000-0000-000000000003",
                     Name = "João Usuário",
                     Email = "joao@credutpay.com",
-                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK", // Senha123!
+                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK",
                     Type = UserType.User,
                     CreatedAt = DateTime.Parse("2025-05-01T00:00:00Z"),
                     IsDeleted = false,
@@ -69,7 +69,7 @@ namespace Credutpay.Infra.Data.EntityConfigurations
                     Id = "00000000-0000-0000-0000-000000000004",
                     Name = "Maria Usuária",
                     Email = "maria@credutpay.com",
-                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK", // Senha123!
+                    Password = "$2a$11$jOsKulVMar93/ay9GWM6COq.nC3DaEWHQ775T6SOfXj/C70AToWgK",
                     Type = UserType.User,
                     CreatedAt = DateTime.Parse("2025-05-01T00:00:00Z"),
                     IsDeleted = false,
