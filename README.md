@@ -142,3 +142,48 @@ A aplicação já vem com alguns usuários pré-cadastrados no banco de dados ap
 | Maria Usuária      | maria@credutpay.com    | 12345678  | User       |
 
 ---
+
+## Endpoints da API
+
+A API oferece os seguintes endpoints, acessíveis via Swagger ou ferramentas como Postman:
+
+### Login
+
+| Método | Rota         | Descrição               |
+|--------|--------------|--------------------------|
+| POST   | /api/login   | Realiza o login do usuário e retorna um token JWT. |
+
+---
+
+### User (CRUD de Usuários)
+
+| Método | Rota        | Descrição                            |
+|--------|-------------|----------------------------------------|
+| GET    | /api/user   | Lista os usuários cadastrados.        |
+| POST   | /api/user   | Cria um novo usuário.                 |
+| PUT    | /api/user   | Atualiza os dados de um usuário.      |
+| DELETE | /api/user   | Remove logicamente um usuário.        |
+
+---
+
+### Wallet (Carteira do Usuário)
+
+| Método | Rota                        | Descrição                                                                 |
+|--------|-----------------------------|---------------------------------------------------------------------------|
+| GET    | /api/wallet                 | Retorna os dados da carteira do usuário autenticado.                      |
+| GET    | /api/wallet/transfer        | Lista todas as transações da carteira (envios e recebimentos).            |
+| POST   | /api/wallet/addfunds        | Adiciona saldo à carteira do usuário.                                     |
+
+---
+
+### WalletTransaction (Transferência entre Carteiras)
+
+| Método | Rota                         | Descrição                                      |
+|--------|------------------------------|------------------------------------------------|
+| POST   | /api/wallet-transaction      | Realiza a transferência entre carteiras.       |
+
+---
+
+> Todos os endpoints (exceto `/api/login`) exigem autenticação via Bearer Token JWT.
+
+---
