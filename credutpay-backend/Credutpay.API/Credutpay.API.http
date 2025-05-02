@@ -1,0 +1,6 @@
+@Credutpay.API_HostAddress = http://localhost:5049
+
+GET {{Credutpay.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
